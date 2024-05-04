@@ -1,0 +1,198 @@
+/* encabezado*/
+  /* contenedor imagen encabezado*/
+    #contenedorimagen{
+      height: 100px;
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+    }
+  /* imagen encabezado*/
+    #imgencabezado{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+      }
+  /* encabezado*/
+    #encabezado{
+      background-color: white;
+      text-align: center;
+      height: 40px;
+    }
+    a{
+      text-transform: uppercase;
+      color: black;
+      font-style: italic;
+      font-weight: bold;
+      font-family: "Roboto", sans-serif;
+    }
+/* fin encabezado*/
+
+h1{
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 2px #888888;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+h3{
+  color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+/*index*/
+.filaimagen {
+  background-image: url('imagenes/ramen.png'); 
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  display: flex; /*centra el contenido verticalmente */
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  height: 550px;
+}
+
+#textoboton{
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.contenido {
+  text-align: center; 
+  color: white; 
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilos adicionales para el botón, etc. */
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilos para las filas y columnas */
+.column {
+  flex: 1; /* Distribuye el espacio de manera uniforme entre las columnas */
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  height: 350px;
+}
+
+#naranja{
+background-color: #eb8f2db9; 
+}
+
+#blanca {
+background-color: white;
+}
+
+/* imagenes del index*/
+#contenedorimg{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+#imgbody{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+/* fin index*/
+
+#textoimgbody{
+  text-align: center;
+  display: flex; /*centra el contenido verticalmente */
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  
+}
+
+/*comidas*/
+.filaimagencomida {
+  background-image: url('imagenes/comidacoreana.png'); 
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  display: flex; /*centra el contenido verticalmente */
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  height: 450px;
+}
+
+ul{
+  color: black;
+  text-align: left;
+}
+
+th, td{
+  color: black;
+  text-align: left;
+  border: 2px;
+  border: solid;
+  border-color: black;
+  font-size: small;
+}
+
+table{
+  border-collapse: collapse;
+  border: 3px;
+  border: solid;
+  border-color: black;
+}
+
+/*bebidas*/
+.filaimagenbebida {
+  background-image: url('imagenes/bebidacoreana.png'); 
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  display: flex; /*centra el contenido verticalmente */
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  height: 450px;
+}
+
+/*postres*/
+.filaimagenpostre {
+  background-image: url('imagenes/postrecoreano.png'); 
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  display: flex; /*centra el contenido verticalmente */
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  height: 450px;
+}
+
+/*Acerca del autor*/
+.filaimagenAutor {
+  background-image: url('imagenes/sobreA.png'); 
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  display: flex; /*centra el contenido verticalmente */
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  height: 450px;
+}
+
+span{
+  font-family: "Roboto", sans-serif;
+}
+
+#imgautor{
+  height: 300px;
+  width: 250px;
+}
